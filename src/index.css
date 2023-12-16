@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.sideBar-typo{
+  color: RGBA(182,187,196,0.7);
+}
+.active{
+  border-right: 0.5rem inset #fff !important;
+}
+.active div h6 {
+  color: #FFFBF5 !important;
+}
+.active div svg * {
+  fill: #FFFBF5 !important;
+}
+.swiper {
+  width: 100%;
+  height: 15rem;
+  border-radius: 10px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  height: 70%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+input::file-selector-button {
+  display: none;
+  font-weight: bold;
+  color: dodgerblue;
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 3px;
+}
+#fileAudio{
+  display: block;
+}
+#fileImage{
+  display: none;
+}
+.blur-bg:before {
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  filter: blur(300px);
+  background: transparent;
+  overflow: hidden;
+  backdrop-filter: blur(80px);
+}
+
+.img-bottom{
+  height: 4rem;
+  width: 4rem;
+  object-fit: contain;
+  border-radius: 1rem;
+  border:  0.2rem inset #FFFBF5;
+}
